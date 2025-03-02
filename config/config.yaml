@@ -6,3 +6,7 @@ data_ingestion:  # Veri Alımı Aşaması
   local_data_file: artifacts/data_ingestion/data.zip  # İndirilen veri dosyasının saklanacağı yol
   unzip_dir: artifacts/data_ingestion  # Zip dosyasının açılacağı dizin
 
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILE: ["train","test","validation"]
