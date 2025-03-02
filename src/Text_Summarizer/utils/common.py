@@ -9,8 +9,6 @@ from pathlib import Path
 from typing import Any
 import base64
 import pickle
-from sklearn.model_selection import RandomizedSearchCV
-from sklearn.metrics import r2_score
 
 
 @ensure_annotations
